@@ -45,3 +45,5 @@ plugins=(git colored-man debian pip python screen themes vi-mode web-search)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+ alias fox2='ssh -A -t imp ssh -A -t fox2'
+ bindkey '^R' history-incremental-search-backward
