@@ -46,7 +46,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 alias fox2='ssh -A -t imp ssh -A -t fox2'
-alias i='jupyter console'
+alias i='ipython'
 bindkey '^R' history-incremental-search-backward
 alias tmux="TERM=screen-256color-bce tmux"
 alias f2ipy='ssh -L 1337:fox2:1337 physserv'
