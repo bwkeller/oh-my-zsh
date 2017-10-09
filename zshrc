@@ -50,4 +50,5 @@ alias i='ipython'
 bindkey '^R' history-incremental-search-backward
 alias tmux="TERM=screen-256color-bce tmux"
 alias f2ipy='ssh -L 1337:fox2:1337 physserv'
+alias watch='watch -c'
 alias wtr='curl wttr.in/yhm'
