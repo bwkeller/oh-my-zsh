@@ -54,3 +54,4 @@ alias watch='watch -c'
 alias wtr='curl wttr.in/yhm'
 export GOPATH=~/.go
 export PATH=$PATH:${GOPATH//://bin:}/bin
+eval "$(direnv hook zsh)"
