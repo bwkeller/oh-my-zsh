@@ -55,4 +55,3 @@ alias wtr='curl wttr.in/yhm'
 export GOPATH=~/.go
 export PATH=$PATH:$HOME/bin:${GOPATH//://bin:}/bin:$HOME/.local/bin
 eval "$(direnv hook zsh)"
-
