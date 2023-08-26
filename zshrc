@@ -53,4 +53,6 @@ alias f2ipy='ssh -L 1337:fox2:1337 physserv'
 alias watch='watch -c'
 alias wtr='curl wttr.in/yhm'
 export GOPATH=~/.go
-export PATH=$PATH:${GOPATH//://bin:}/bin
+export PATH=$PATH:$HOME/bin:${GOPATH//://bin:}/bin:$HOME/.local/bin
+eval "$(direnv hook zsh)"
+
